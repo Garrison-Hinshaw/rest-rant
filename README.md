@@ -55,6 +55,6 @@ This is my first project involving **_servers and back-end APIs_** and I am supe
 ## Notes
 
 Idea Bank:
-*USe some kind of aggregate for rating
-*Auto-complete dropdown
-*Update for comments
+* Use some kind of aggregate for rating
+* Auto-complete dropdown
+* Update for comments
