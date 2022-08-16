@@ -20,3 +20,41 @@ This is my first project involving **_servers and back-end APIs_** and I am supe
 | Get| `*` | 404 page (for routes not defined) |
 
 ## Database
+
+**Places**
+
+|Field| Type|
+|-----|-----|
+|_id| Object ID|
+|name| string |
+|city| string |
+|state| string |
+|cuisines| string|
+|picture |string|
+
+**Rants**
+|Field| Type|
+|-----|-----|
+|_id|Object ID|
+|place_id| ref(places) Object_Id|
+|rant| Boolean|
+|rating| Number|
+|comment|string|
+|reviewer|string|
+
+## Planning
+
+### User Stories
+
+
+
+### Wireframes
+
+
+
+## Notes
+
+Idea Bank:
+*USe some kind of aggregate for rating
+*Auto-complete dropdown
+*Update for comments
