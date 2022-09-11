@@ -6,7 +6,7 @@ router.get('/', (req,res) => {
         city: 'Kansas City',
         state: 'Missouri',
         cuisine: 'Corn related dishes with bones',
-        picture: 'https://place-puppy.com/200x200'
+        picture: 'https://place-puppy.com/300x300'
         
     },
     {
@@ -14,7 +14,7 @@ router.get('/', (req,res) => {
         city: 'St. Louis',
         state: 'Missouri',
         cuisine: 'Street food',
-        picture: 'https://place-puppy.com/200x200'
+        picture: 'https://place-puppy.com/300x300'
     }]
     res.render('./places/index', { places })
 })
